@@ -44,10 +44,6 @@ function populateCards(products) {
         image.src = product.image;
         image.alt = product.title;
 
-        const badge = document.createElement('div');
-        badge.classList.add('badge');
-        badge.textContent = product.badge_text || '';
-
         if (product.badge_text && product.badge_text.trim() !== '') {
             const badge = document.createElement('div');
             badge.classList.add('badge');
@@ -90,7 +86,6 @@ function populateCards(products) {
         const button = document.createElement('button');
         button.textContent = 'Add to Cart';
         button.classList.add('addtocart-buttton')
-
 
         titleVendors.appendChild(title);
         titleVendors.appendChild(vendor);
