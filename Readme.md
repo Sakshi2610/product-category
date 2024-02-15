@@ -14,6 +14,6 @@ This page contains 3 tabs
 6. Discount Value
 7. Add to Cart
 8. The Badge if available 
-is displayed in the dynamic cards.
+will be displayed on the dynamic cards.
 
 #### Similarly, when the user clicks on the "Women" and "Kids" tabs, the corresponding data for the respective sections is displayed in the dynamic cards.
